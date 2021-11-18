@@ -6,19 +6,12 @@ window.onload = function () {
   let likeBtn = document.getElementById('LikeBtn');
   likeBtn.addEventListener('click', myFunction, false);
 
+let lnks = document.querySelectorAll('ul');
+for(let lnk of lnks ){
+lnk.addEventListener('click',lnkClicked, false);
+
 }
- 
-  function myFunctionLinkedin() {
-    alert("Navigating to Supriya's Linkedin Profile");
-  }
-
-  function myFunctionMedium() {
-    alert("Navigating to Supriya's Medium Profile");
-  }
-
-  function myFunctionGithub() {
-    alert("Navigating to Supriya's Github");
-  }
+}
 
   function myFunction(evt) {
     let i = evt.target.innerHTML;
@@ -37,3 +30,12 @@ window.onload = function () {
     }
 }   
     
+function lnkClicked(evt) {
+  let target = evt.target;
+  if(target && target.nodeName == "A"){
+  alert('Navigating to '+target.innerHTML);
+
+  }
+
+ 
+}
