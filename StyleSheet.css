@@ -85,6 +85,11 @@ table, th, td {
 
 table {
   width: 85%;
-align: center; 
-margin-left: 25px; 
+  margin-left: 25px; 
+align-items: center;
+}
+.expanded:hover {
+    height: 400px;
+    transition: .5s;
+	
 }
