@@ -10,6 +10,7 @@
     <meta name="author" content="Supriya Ranjan" />
 
     <link rel="stylesheet" href=".\StyleSheet.css" />
+    <script src="controller.js"></script>
 
 </head>
 
@@ -17,18 +18,23 @@
 
 <h1>About Me </h1>
 
-<div class="colleft">
-<img src=".\sup.jpeg" alt="Lake Lewisville" width="75%"/>
+
+
+<div  class="colleft">
+<img id="getImage" src=".\sup.jpeg" alt="Lake Lewisville" width="75%" onmouseover="imagefun()"/>
+<p class="chng">MouseOver to change the picture</p>
+<!--input type="button" onmouseover="imagefun()" value="Change Image"-->
 </div>
 
-<div class="colcenter">
 
+<div class="colcenter">
 <section>
+ 
     <p>Hello Everyone, my name is Supriya. I am an ex Chemical Engineer who likes coding and excited to restart my career as a salesforce developer. I love beaches and lakes. Here in this picture you can see me and Lake Lewisville in the back.</p>
 	<ul>
-	<li><a href="https://www.linkedin.com/in/supriya-ranjan-237017218/">My Linkedin Profile</a></li>
-		<li><a href="https://medium.com/@supriyaran">My Medium Profile</a></li>
-		<li><a href="https://github.com/Supriyaranjan">My Github Profile</a></li>
+	<li onclick="myFunctionLinkedin()"><a href="https://www.linkedin.com/in/supriya-ranjan-237017218/">My Linkedin Profile    </a></li> 
+		<li onclick="myFunctionMedium()"><a href="https://medium.com/@supriyaran">My Medium Profile</a></li>
+		<li onclick="myFunctionGithub()"><a href="https://github.com/Supriyaranjan">My Github Profile</a></li>
 	
 	</ul>
  <p>Recently I have started technical bloging and loving it. Please find my blogs links bellow and give some claps.Thank you in advance.</p>
@@ -39,6 +45,7 @@
 	
 	</ol>
 
+  <button id="Like" onclick="myFunction()">0 Likes</button>
  </section>
 
 </div>
