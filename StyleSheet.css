@@ -1,12 +1,4 @@
-html{
-	
-	text-align: center;
-	display:flex;
-	justify-content: space-between;
-	justify-content :space-around;
-	
-	
-}
+
 a{
 	color: #3398FF;
 		
@@ -93,3 +85,37 @@ align-items: center;
     transition: .5s;
 	
 }
+
+.items{
+	width: 30%;
+    float: left;
+    text-align: center;
+	border: 2px;
+	border-style: solid;
+	border-color: #3398FF;
+	padding: 15px;
+	font-family: georgia, "times new roman", serif;
+	font-style: italic;
+}
+
+.cart{
+	width: 40%;
+    float: right;
+    text-align: center;
+	border: 2px;
+	border-style: solid;
+	border-color: #3398FF;
+	padding: 15px;
+	font-family: georgia, "times new roman", serif;
+	font-style: italic;
+}
+
+.item-text{
+	   color: blue;
+       font-weight: bold;
+       width: 250px;
+       float: left;
+	   text-align: right;
+}
+
+
