@@ -16,18 +16,43 @@
 
 <body>
 
-<h1>ShoppingCart </h1>
-<a href="./AboutMe.html"  >AboutMe    </a>
+<h1>Stationary Shop </h1>
+<div><a href="./AboutMe.html"  >About Me  </a></div>
+
 <div  class="items">
 <h2>Start Here</h2>
-<label for="lname">Item Name:</label>
+<label>Item Name:</label>
 <input type="text" id="itemname" name="itemname"><br><br>
-<button type="button" id="AddItemBtn">Add Item</button>
+<button type="button" id="AddItemBtn">Add Item</button><br>
+<h3>Or Select Below</h3>
+<div class="selitemdiv">
+<img class="shopitem" src="pen.png" alt="Item Name">
+<label class="sel-items">Pen</label>
+<button type="button" class="SelItemBtn">Add To Cart</button>
+<br><br><br>
+</div>
+<div class="selitemdiv">
+<img class="shopitem" src="rubik.png" alt="Item Name">
+<label class="sel-items">Rubiks Cube</label>
+<button type="button" class="SelItemBtn">Add To Cart</button>
+<br><br><br>
+</div>
+<div class="selitemdiv">
+<img class="shopitem" src="book.png" alt="Item Name">
+<label class="sel-items">Book</label>
+<button type="button" class="SelItemBtn">Add To Cart</button>
+<br><br><br>
+</div>
 </div>
 
 <div  class="cart" id="cart">
 
 <h2>My Cart</h2>
+<div>
+<button type="button" id="SortBtn">Sort Items</button>
+<button type="button" id="DelItemBtn">Delete Selected Items</button>
+<br><br>
+</div>
 
 </div>
 
