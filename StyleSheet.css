@@ -1,4 +1,5 @@
 
+
 a{
 	color: #3398FF;
 		
@@ -87,7 +88,7 @@ align-items: center;
 }
 
 .items{
-	width: 30%;
+	width: 50%;
     float: left;
     text-align: center;
 	border: 2px;
@@ -118,4 +119,28 @@ align-items: center;
 	   text-align: right;
 }
 
+.sel-items{
+	   color: blue;
+       font-weight: bold;
+       width: 150px;
+       float: center;
+	   text-align: right;
+	   float:left;
+}
 
+.selitemdiv{
+	margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+	
+}
+
+.selitemdiv:last-child { border-bottom: none; }
+
+.shopitem {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 2px;  /* Rounded border */
+  padding: 2px; /* Some padding */
+  width: 40px; /* Set a small width */
+  float: left
+}
